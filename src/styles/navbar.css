@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #EBE9E3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding-left: 0;
+        li {
+            margin-right: 1rem;
+            margin-bottom: 0;
+            a {
+                color: #092E4C;
+            }
+            a:hover {
+                color: #0C3E66;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.accordion {
+    border-top: 1px solid var(--navy);
+    margin-bottom: 0px;
+    overflow: hidden;
+    width: 80vw;
+}
+
+.accordion-header {
+    width: 100%;
+    background: var(--background-color);
+    padding: 10px 15px;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--navy);
+}
+
+.icon {
+    transition: transform 0.3s ease;
+    color: var(--navy);
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    background: var(--background-color);
+}
+
+.accordion-content.open {
+    max-height: 200px;
+    padding: 10px 15px;
+}

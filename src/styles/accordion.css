@@ -2,7 +2,11 @@
     border-top: 1px solid var(--navy);
     margin-bottom: 0px;
     overflow: hidden;
-    width: 80vw;
+    width: 60vw;
+}
+
+.accordion-title {
+    font-size: 2rem;
 }
 
 .accordion-header {
@@ -16,6 +20,8 @@
     justify-content: space-between;
     align-items: center;
     color: var(--navy);
+    font-size: 1.75rem;
+    font-family: var(--times-font);
 }
 
 .icon {
@@ -35,6 +41,6 @@
 }
 
 .accordion-content.open {
-    max-height: 200px;
+    max-height: 700px;
     padding: 10px 15px;
 }

@@ -1,0 +1,31 @@
+.aboutPage {
+
+}
+.headshot {
+    border: 8px double black;
+    width: 36rem;
+    height: auto;
+    float: right;
+    margin: 1rem 5rem;
+}
+.aboutMe {
+    margin-left: 5rem;
+    width: 45%;
+}
+
+.aboutMe h1 {
+    font-family: var(--cursive-font);
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.aboutMe h2 {
+    font-family: var(--times-font);
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.aboutMe p {
+    font-family: var(--times-font);
+    line-height: 2;
+}

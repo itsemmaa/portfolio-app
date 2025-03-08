@@ -1,29 +1,25 @@
-import { useState } from 'react';
 import './App.css';
-import Accordion from "./components/portfolio-accordion";
-import Wrapper from "./components/wrapper";
 import Navbar from "./components/navbar";
+import { Routes, Route, HashRouter } from "react-router-dom";
+import Home from "./pages/homePage";
+import About from "./pages/aboutPage";
+import Contact from "./pages/contactPage";
 
 const App = () => {
 
   return (
     <>
+    <HashRouter>
       <Navbar/>
-      <h1>EMMA BARNETT</h1>
-      <Wrapper>
-        <h2>PORTFOLIO</h2>
-      <Accordion title="WEB DEVELOPMENT & DESIGN" content="This is content 1."/>
-      <Accordion title="USER EXPERIENCE DESIGN" content="This is content 2."/>
-      <Accordion title="PHOTOGRAPHY" content="Photography"/>
-      <Accordion title="ILLUSTRATIONS" content="Art I've done"/>
-      </Wrapper>
 
-      <Wrapper>
-        <h2>RESUME</h2>
-        <Accordion title="EDUCATION" content="Education content"/>
-        <Accordion title="WORK EXPERIENCE" content="Work experience"/>
-        <Accordion title="VOLUNTEERING" content="Voluteering experience"/>
-      </Wrapper>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+        </Routes>
+      </main>
+      </HashRouter>
     </>
   );
 };

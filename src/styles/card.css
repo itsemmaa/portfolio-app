@@ -1,0 +1,45 @@
+.accordionContent {
+    margin-top: -2rem;
+    margin-bottom: -1.7rem;
+}
+
+.webCard {
+    border-bottom: 1px solid var(--navy);
+}
+
+.title {
+    font-size: 1.7rem;
+    list-style: none;
+    font-weight: 100;
+    font-family: var(--times-font);
+}
+
+.type {
+    margin-top: -1.75rem;
+    font-size: 1rem;
+    font-family: var(--sans-serif-font);
+    font-weight: 500;
+}
+
+.description {
+    font-size: 0.9rem;
+}
+
+.images {
+    width: 100%;
+    max-width: 100%;
+    height: 3vh;
+    padding: 2rem 2rem;
+}
+
+.images img {
+    width: 4rem;
+    height: 2rem;
+    background-color: var(--gray);
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem;
+}

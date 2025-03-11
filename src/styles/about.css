@@ -3,29 +3,34 @@
 }
 .headshot {
     border: 8px double black;
-    width: 36rem;
+    width: 30rem;
     height: auto;
     float: right;
-    margin: 1rem 5rem;
+    margin: -8rem 10rem 0rem 4rem;
 }
 .aboutMe {
-    margin-left: 5rem;
+    margin-left: 6rem;
     width: 45%;
+    margin-top: 10rem;
 }
 
 .aboutMe h1 {
     font-family: var(--cursive-font);
     font-size: 5rem;
     font-weight: 100;
+    margin-top: 5rem;
+    margin-bottom: 0;
 }
 
 .aboutMe h2 {
     font-family: var(--times-font);
     font-weight: 100;
     font-size: 4rem;
+    margin-top: -2rem;
 }
 
 .aboutMe p {
     font-family: var(--times-font);
     line-height: 2;
+    font-size: 1.25rem;
 }

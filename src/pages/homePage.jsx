@@ -8,6 +8,7 @@ import LandingCard from "../components/landingCard";
 import Education from "../components/educationCards";
 import Work from "../components/workCards";
 import Volunteering from "../components/volunteerCards";
+import Art from "../components/artCards";
 
 const Home = () => {
     return (
@@ -21,7 +22,7 @@ const Home = () => {
             <Accordion title="WEB DEVELOPMENT & DESIGN" content={<Web/>}/>
             <Accordion title="USER EXPERIENCE DESIGN" content={<UX/>}/>
             <Accordion title="PHOTOGRAPHY" content={<Photography/>}/>
-            <Accordion title="ILLUSTRATIONS" content="Art I've done"/>
+            <Accordion title="ILLUSTRATIONS" content={<Art/>}/>
         </Wrapper>
 
         <Wrapper>
